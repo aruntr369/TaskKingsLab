@@ -33,9 +33,9 @@ public class RecAdapter extends RecyclerView.Adapter<RecAdapter.PostViewHolder> 
         @Override
         public void onBindViewHolder(@NonNull PostViewHolder holder, int position) {
             Data post = postList.get(position);
-            holder.email.setText("id : " + post.getEmail());
-            holder.name.setText("userId : " + post.getClientName());
-            holder.phno.setText("title :" + post.getPhoneNumber());
+            holder.email.setText("Email : " + post.getEmail());
+            holder.name.setText("Name : " + post.getClientName());
+            holder.phno.setText("Phone Number :" + post.getPhoneNumber());
 
         }
 
