@@ -2,37 +2,37 @@ package com.arun.taskkingslab;
 
 public class Data {
 
-    String ClientName;
-    String Email;
-    String PhoneNumber;
+    String client_name;
+    String client_email;
+    String client_mobile_number;
 
-    public Data(String clientName, String email, String phoneNumber) {
-        ClientName = clientName;
-        Email = email;
-        PhoneNumber = phoneNumber;
+    public Data(String client_name, String client_email, String client_mobile_number) {
+        this.client_name = client_name;
+        this.client_email = client_email;
+        this.client_mobile_number = client_mobile_number;
     }
 
     public String getClientName() {
-        return ClientName;
+        return client_name;
     }
 
     public void setClientName(String clientName) {
-        ClientName = clientName;
+        client_name = clientName;
     }
 
-    public String getEmail() {
-        return Email;
+    public String getClient_email() {
+        return client_email;
     }
 
-    public void setEmail(String email) {
-        Email = email;
+    public void setClient_email(String client_email) {
+        this.client_email = client_email;
     }
 
-    public String getPhoneNumber() {
-        return PhoneNumber;
+    public String getClient_mobile_number() {
+        return client_mobile_number;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
-        PhoneNumber = phoneNumber;
+    public void setClient_mobile_number(String client_mobile_number) {
+        this.client_mobile_number = client_mobile_number;
     }
 }
